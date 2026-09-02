@@ -92,5 +92,5 @@ See:
 - [x] Dashboard documentation (this README + docs/)
 - [x] Business insights
 - [x] Decision-oriented recommendations
-- [ ] Tableau workbook (.twbx) — build following the guide, then add to `dashboard/`
-- [ ] 3–5 min recorded walkthrough video [Watch the video here](https://drive.google.com/file/d/1q3k0CwIwhI1tgamvMlbCwQKSl9380wmF/view?usp=sharing)
+- [x] Tableau workbook (.twbx) — build following the guide, then add to `dashboard/`
+- [x] 3–5 min recorded walkthrough video [Watch the video here](https://drive.google.com/file/d/1q3k0CwIwhI1tgamvMlbCwQKSl9380wmF/view?usp=sharing)
