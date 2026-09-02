@@ -1,0 +1,20 @@
+Loaded raw dataset: 1675 rows, 32 columns
+Removed 19 exact duplicate employee records
+Removed 6 duplicate EmployeeIDs
+Dropped constant/non-informative columns: ['EmployeeCount', 'Over18', 'StandardHours']
+Standardized 'Department' spelling/casing variants (e.g. 'R&D', 'sales ') into 3 clean categories
+Standardized 'OverTime' to consistent 'Yes'/'No' capitalization, trimmed whitespace
+Trimmed stray leading/trailing whitespace from 'JobRole'
+Converted 'MonthlyIncome' from mixed text/currency-formatted strings to numeric
+Converted 'DistanceFromHome' from mixed text ('12 km') to numeric
+Found 7 rows with invalid Age (<18 or >65) -> set to missing, then imputed
+Found 5 rows with JobSatisfaction outside valid 1-4 scale -> set to missing
+Imputed 33 missing 'MonthlyIncome' values with median (8378.0)
+Imputed 54 missing 'JobSatisfaction' values with median (3.0)
+Imputed 41 missing 'EnvironmentSatisfaction' values with median (3.0)
+Imputed 33 missing 'YearsSinceLastPromotion' values with median (2.0)
+Imputed 23 missing 'Age' values with median (36.0)
+Imputed 24 missing 'EducationField' values with mode ('Life Sciences')
+Cast ['Age', 'MonthlyIncome', 'DistanceFromHome', 'JobSatisfaction', 'EnvironmentSatisfaction', 'YearsSinceLastPromotion'] to integer type after cleaning/imputation
+Created derived fields: AttritionFlag, AgeGroup, TenureBand, IncomeBand, SatisfactionIndex
+Saved cleaned dataset: 1650 rows, 34 columns -> /home/claude/hr_project/employee_data_clean.csv

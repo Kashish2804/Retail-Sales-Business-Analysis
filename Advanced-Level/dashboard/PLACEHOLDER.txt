@@ -1,0 +1,1 @@
+Build dashboard/HR_Attrition_Dashboard.twbx in Tableau, then place it here.
